@@ -1,6 +1,6 @@
 from model import create_cnn_model
 from data_load import data_loader
-import tensorflow as tf
+from tqdm.keras import TqdmCallback
 import os
 
 def train(DATA_URL, SAVE_URL):
@@ -12,6 +12,6 @@ def train(DATA_URL, SAVE_URL):
     checkpoint_path = os.path.join(SAVE_URL,"my_model.h5")
     # checkpoint_dir = SAVE_URL
 
-    model.fit(x_train, y_train, epochs=20)
+    model.fit(x_train, y_train, epochs=20, verbose=0, callbacks=[TqdmCallback(verbose=2)])
     model.save(checkpoint_path)
     return model
