@@ -8,5 +8,5 @@ if __name__ == '__main__':
 
     data_url = config["DATA"]
     train(data_url)
-    test()
+
     #TODO predict 추가하기 -> 파일로로
