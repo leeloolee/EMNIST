@@ -1,10 +1,4 @@
 {
-  "DEFAULT": {
-    "SECRET_KEY": "secret-key-of-myapp",
-    "ADMIN_NAME": "administrator",
-    "AWS_DEFAULT_REGION": "ap-northeast-2",
-    "MAX_IMAGE_SIZE": 5242880
-  },
   "DATA": {
     "TRAIN": "data/train.csv",
     "TEST": "data/test.csv"
@@ -13,9 +7,9 @@
 
   },
   "TRAIN": {
-    "model_save_checkpoint" :
+    "CKPT_SAVE_DIR" : "save"
   },
   "TEST" : {
-    "model_load_checkpoint" :
+    "CKPT_LOAD_DIR" : "save"
   }
 }
