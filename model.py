@@ -26,3 +26,5 @@ def create_cnn_model(x_train):
     model = tf.keras.models.Model(inputs=inputs, outputs=outputs)
 
     return model
+
+"여기까지가 끝인가보오"
