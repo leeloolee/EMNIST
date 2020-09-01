@@ -8,5 +8,6 @@
   "DATA": {
     "TRAIN": "data/train.csv",
     "TEST": "data/test.csv"
-  }
+  },
+  "TRAIN"
 }
