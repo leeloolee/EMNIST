@@ -1,0 +1,11 @@
+# 뭔지 #
+data/submission.csv
+.idea/
+__pycache__/
+
+# notebook #
+.ipynb_checkpoints
+*.ipynb
+
+# TODO_list #
+*.txt
