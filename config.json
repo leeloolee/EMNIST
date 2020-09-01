@@ -9,5 +9,13 @@
     "TRAIN": "data/train.csv",
     "TEST": "data/test.csv"
   },
-  "TRAIN"
+  "MODEL_HPARAM": {
+
+  },
+  "TRAIN": {
+    "model_save_checkpoint" :
+  },
+  "TEST" : {
+    "model_load_checkpoint" :
+  }
 }
