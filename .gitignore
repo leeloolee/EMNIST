@@ -10,3 +10,6 @@ __pycache__/
 # project managing #
 *.txt
 *.url
+
+# saved #
+save
